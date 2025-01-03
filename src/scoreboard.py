@@ -15,5 +15,8 @@ class Scoreboard:
             raise KeyError("Missing player name")
         self.points[player_name] += increment 
 
+    def return_score(self):
+        return self.points
+
 
 

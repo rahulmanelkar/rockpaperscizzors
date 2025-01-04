@@ -18,5 +18,8 @@ class Scoreboard:
     def return_score(self):
         return self.points
 
+    def display(self):
+        pass
+
 
 

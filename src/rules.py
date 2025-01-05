@@ -19,7 +19,10 @@ class Rules:
             raise TypeError("Need to pass in rule dictionary")
         self._rule_dict=new_rules
 
+    def get_rules(self):
+        return "Rock beats Scizzors, Scizzors beats Paper, Paper beats Rock"
     
+
         
 
 if __name__=="__main__":

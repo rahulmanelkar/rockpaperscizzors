@@ -1,3 +1,5 @@
+from entity import Entity
+from scoreboard import Scoreboard
 
 def play():
     '''Play the game'''

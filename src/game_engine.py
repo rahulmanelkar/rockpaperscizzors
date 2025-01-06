@@ -1,4 +1,5 @@
 from entity import Entity
+from rules import Rules
 import random
 
 class Game:

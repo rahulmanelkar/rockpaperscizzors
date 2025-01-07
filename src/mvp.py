@@ -28,7 +28,7 @@ def game(choice):
 
 def main():
     print("This is a quick Rock-Paper-Scissors MVP")
-    choice = input("Enter choice, R, P ,S")
+    choice = input("Enter choice, R, P ,S:")
 
     result = game(choice)
 

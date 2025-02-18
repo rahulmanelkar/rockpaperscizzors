@@ -6,6 +6,7 @@ def play():
     print("Playing against AI")
     name=input("What is your name?:")
     print(f'Hello {name}')
+    return name
 
 if __name__=="__main__":
     play()
